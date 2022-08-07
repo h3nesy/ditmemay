@@ -1,0 +1,10 @@
+// Install in ubuntu 18.04
+1. sudo apt install update -y
+2. sudo apt install upgrade -y
+3. sudo apt install curl -y
+4. curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+5. sudo apt install nodejs -y
+6. sh install.sh
+7. npm i randomstring
+8. node http1.js <MODE> <host> <proxies> <duration> <rate> <threads>
+Example: node http1.js GET https://example.com http.txt 60 64 1

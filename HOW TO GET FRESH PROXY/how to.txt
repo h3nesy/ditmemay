@@ -1,0 +1,22 @@
+mag_right scan the internet to find "private" proxies.
+
+brain HTTP/SOCKS4/SOCKS5 Proxies.
+
+pushpin Installation:
+  - sudo apt-get install git zmap golang-go -y (debian based distribution)
+  - git clone https://github.com/Its-Vichy/ProxyScan && cd ProxyScan
+  
+  point_right Scan for proxies:
+  - zmap -p <proxy_port> | go run ./main.go <proxy_port> <output_file>
+  
+  point_right Check ips from file (without port):
+  - cat <proxy_file> | go run ./main.go <proxy_port> <output_file>
+
+pushpin Default port:
+   - Socks: 1080
+   - Http:  3128 | 8080
+
+
+rotating_light You need working proxies ?
+
+  We are providing the best proxies at cheap price !
